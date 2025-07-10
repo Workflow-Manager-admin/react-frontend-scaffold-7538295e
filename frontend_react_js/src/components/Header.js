@@ -19,6 +19,11 @@ function Header() {
               About
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/tictactoe" activeclassname="active">
+              Tic Tac Toe
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

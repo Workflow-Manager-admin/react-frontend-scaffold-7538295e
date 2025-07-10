@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import TicTacToe from "./pages/TicTacToe";
 import { AppProvider, useAppContext } from "./context/AppContext";
 
 // Theme toggle button as modern floating action
@@ -45,6 +46,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/tictactoe" element={<TicTacToe />} />
             </Routes>
           </main>
           <Footer />
